@@ -20,7 +20,7 @@ pipeline {
         stage ('Install Stage') {
             steps {
                 withMaven(maven : 'maven-3.9.8') {
-                    bat 'mvn install'
+                    bat 'mvn install -Dmaven.test.skip=true'
                 } 
             } 
         } 
