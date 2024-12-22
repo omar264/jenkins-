@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools{ jdk 'Jdk17' }
+    tools{ jdk 'JDK17' }
     environment { JAVA_HOME = '/usr/lib/jvm/java-17-openjdk-amd64/' }
     stages {
         stage ('Compile Stage') {
