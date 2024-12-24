@@ -1,6 +1,5 @@
 # Hello-world
 
-Modif Test
 
 ## Getting started
 
